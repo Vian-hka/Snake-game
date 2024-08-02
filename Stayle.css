@@ -1,0 +1,33 @@
+/* Mengatur gaya dasar untuk seluruh halaman */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #000;
+    font-family: Arial, sans-serif;
+    color: #fff;
+}
+
+/* Gaya untuk kanvas game */
+canvas {
+    background-color: #000;
+    border: 2px solid #fff;
+    display: block;
+}
+
+/* Gaya untuk elemen heading */
+h1 {
+    text-align: center;
+    color: #fff;
+}
+
+/* Gaya untuk skor */
+#score {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 20px;
+    color: #fff;
+}

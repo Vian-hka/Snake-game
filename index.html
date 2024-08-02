@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game</title>
+    <style>
+        /* Mengatur gaya dasar untuk seluruh halaman */
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #000;
+            font-family: Arial, sans-serif;
+            color: #fff;
+        }
+
+        /* Gaya untuk kanvas game */
+        canvas {
+            background-color: #000;
+            border: 2px solid #fff;
+            display: block;
+        }
+
+        /* Gaya untuk elemen heading */
+        h1 {
+            text-align: center;
+            color: #fff;
+        }
+
+        /* Gaya untuk skor */
+        #score {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            font-size: 20px;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div id="score">Score: 0</div>
+    <canvas id="gameCanvas" width="300" height="300"></canvas>
+    <script src="snake.js"></script>
+</body>
+</html>
